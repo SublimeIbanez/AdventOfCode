@@ -2,7 +2,7 @@
 Storing my progress for Advent of Code in various languages
 ## 2023
 ### Day 1:
-|---------|-------|---------|--------|----------|------------|
+
 | **Part 1:** | [X] C | [X] C++ | [ ] C# | [ ] Rust | [X] Python | 
 | **Part 2:** | [X] C | [X] C++ | [ ] C# | [ ] Rust | [X] Python | 
 
