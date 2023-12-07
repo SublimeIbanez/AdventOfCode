@@ -49,10 +49,31 @@ for line in lines:
             i += 1
 
 sum = 0
+gear = 0
 for pos in positions:
     for part in partsList:
         if part.lineNum in range(pos.lineNum - 1, pos.lineNum + 2):
             if pos.pos in range(part.startPos - 1, part.endPos + 2):
                 sum += int(part.partNumber)
+    if pos.symbol == '*':
+        count = 0
+        part1 = ""
+        part2 = ""
+        for part in partsList:
+            if count < 2:
+                if part.lineNum in range(pos.lineNum - 1, pos.lineNum + 2):
+                    if pos.pos in range(part.startPos - 1, part.endPos + 2):
+                        if count == 0:
+                            part1 = part.partNumber
+                            count += 1
+                        elif count == 1:
+                            part2 = part.partNumber
+                            count += 1
+            elif count > 2:
+                break
+        if count == 2:
+            gear += int(part1) * int(part2)
+                
 
-print(sum)
+print("Part 1: " + str(sum))
+print("Part 2: " + str(gear))
