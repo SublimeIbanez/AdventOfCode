@@ -25,5 +25,5 @@ Storing my progress for Advent of Code in various languages
 | [ ] C      | [ ] C      |
 | [ ] C++    | [ ] C++    |
 | [ ] Rust   | [ ] Rust   |
-| [ ] Python | [ ] Python |
+| [X] Python | [ ] Python |
 | [ ] C#     | [ ] C#     |
