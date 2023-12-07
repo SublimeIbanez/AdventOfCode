@@ -34,5 +34,23 @@ Storing my progress for Advent of Code in various languages
 | [ ] C      | [ ] C      |
 | [ ] C++    | [ ] C++    |
 | [ ] Rust   | [ ] Rust   |
-| [X] Python | [ ] Python |
+| [X] Python | [X] Python |
+| [ ] C#     | [ ] C#     |
+
+### Day 5:
+| Part 1: | Part 2: |
+|------------|------------|
+| [ ] C      | [ ] C      |
+| [ ] C++    | [ ] C++    |
+| [ ] Rust   | [ ] Rust   |
+| [ ] Python | [ ] Python |
+| [ ] C#     | [ ] C#     |
+
+### Day 6:
+| Part 1: | Part 2: |
+|------------|------------|
+| [ ] C      | [ ] C      |
+| [ ] C++    | [ ] C++    |
+| [ ] Rust   | [ ] Rust   |
+| [ ] Python | [ ] Python |
 | [ ] C#     | [ ] C#     |
