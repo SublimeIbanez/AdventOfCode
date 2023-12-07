@@ -7,11 +7,6 @@ typedef struct {
     char* key;
     int value;
 } Pair;
-void while_func() {
-    while(1) {
-        //
-    }
-}
 
 
 int main() {
@@ -40,7 +35,6 @@ int main() {
     };
     
 
-    while1:
     while ((read = getline(&line, &length, data)) != -1) {
         int front = -1, back = -1;
         int i = 0;
@@ -80,7 +74,7 @@ int main() {
         free(line);
         line = NULL;
     }
-    goto while1;
+
     printf("%d\n", sum);
     
     return EXIT_SUCCESS;
