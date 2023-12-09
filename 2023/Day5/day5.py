@@ -68,8 +68,8 @@ for seed in seeds:
         if type:
             value = getattr(seed, type)
             map_index = list(type_map.keys()).index(map.name)
-            prev_type = list(type_map.values())[map_index - 1] if map_index > 0 else 'seedNum'
-            prev_value = getattr(seed, prev_type) if prev_type != 'seedNum' else seed.seedNum
+            prev_type = list(type_map.values())[map_index - 1] if map_index > 0 else "seedNum"
+            prev_value = getattr(seed, prev_type) if prev_type != "seedNum" else seed.seedNum
 
             if value is None:
                 setattr(seed, type, prev_value)
